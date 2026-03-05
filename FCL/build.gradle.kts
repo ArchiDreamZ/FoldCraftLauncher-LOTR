@@ -39,7 +39,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.tungsten.fcl.server"
+        applicationId = "com.tungsten.fcl.server.lotr"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = 1289
