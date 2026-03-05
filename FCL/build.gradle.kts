@@ -24,17 +24,17 @@ android {
     if(localProperty != null && localProperty.getProperty("arch", "all") == "arm64") System.setProperty("arch", "arm64")
 
     signingConfigs {
-        create("FCLKey") {
-            storeFile = file("../key-store.jks")
+        create("ArchiKey") {
+            storeFile = file("../FCL/彼梦之印.jks")
             storePassword = pwd
-            keyAlias = "FCL-Key"
+            keyAlias = "Archi"
             keyPassword = pwd
         }
-        create("FCLDebugKey") {
-            storeFile = file("../debug-key.jks")
-            storePassword = "FCL-Debug"
-            keyAlias = "FCL-Debug"
-            keyPassword = "FCL-Debug"
+        create("ArchiDebugKey") {
+            storeFile = file("../FCL/彼梦之印.jks")
+            storePassword = pwd
+            keyAlias = "Archi"
+            keyPassword = pwd
         }
     }
 
@@ -53,7 +53,7 @@ android {
     buildTypes {
         getByName("release") {
             isMinifyEnabled = false
-            signingConfig = signingConfigs.getByName("FCLKey")
+            signingConfig = signingConfigs.getByName("ArchiKey")
         }
         configureEach {
             resValue("string", "app_version", defaultConfig.versionName.toString())
