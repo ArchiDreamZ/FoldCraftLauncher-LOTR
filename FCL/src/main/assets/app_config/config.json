@@ -19,7 +19,7 @@
         "pojavBigCore": false,
         "notCheckMod": false
       },
-      "gameDir": "/data/data/com.tungsten.fcl.server/.minecraft",
+      "gameDir": "/data/data/com.tungsten.fcl.server.lotr/.minecraft",
       "selectedMinecraftVersion": ""
     },
     "私有目录": {
@@ -39,7 +39,7 @@
         "pojavBigCore": false,
         "notCheckMod": false
       },
-      "gameDir": "/storage/emulated/0/Android/data/com.tungsten.fcl.server/files/.minecraft",
+      "gameDir": "/storage/emulated/0/Android/data/com.tungsten.fcl.server.lotr/files/.minecraft",
       "selectedMinecraftVersion": ""
     }
   },
